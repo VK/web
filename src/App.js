@@ -78,7 +78,7 @@ function Rig({ children }) {
 }
 
 function Ground(props) {
-  const [floor, normal] = useTexture(['/Ice001_1K_Color.jpg', '/Ice001_1K_NormalDX.jpg'])
+  const [floor, normal] = useTexture(['/web/Ice001_1K_Color.jpg', '/web/Ice001_1K_NormalDX.jpg'])
   return (
     <Reflector resolution={1024} args={[8, 8]} {...props}>
       {(Material, props) => <Material color="#f0f0f0" metalness={0} roughnessMap={floor} normalMap={normal} normalScale={[2, 2]} {...props} />}
@@ -96,9 +96,9 @@ export default function App() {
         <Rig>
           <MyFrame color="#00c2ba" scale={0.008} position={[-1.75, 1.3, -.1]} rotation={[0, 0, 0]} />
 
-          <MySvg filename="./web/V.svg" color="#ff26ba" scale={0.0060} position={[-2.2, 1.49, -.12]} rotation={[0, 0.05, -0.01]} />
-          <MySvg filename="./web/K.svg" color="#ff26ba" scale={0.0060} position={[-0.4, 1.4, -0.2]} rotation={[0, -0.1, -.02]} />
-          <MySvg filename="./web/url.svg" color="#ffffff" scale={0.0008} position={[-0.9, 1.0, .8]} rotation={[0, 0, 0]} />
+          <MySvg filename="/web/V.svg" color="#ff26ba" scale={0.0060} position={[-2.2, 1.49, -.12]} rotation={[0, 0.05, -0.01]} />
+          <MySvg filename="/web/K.svg" color="#ff26ba" scale={0.0060} position={[-0.4, 1.4, -0.2]} rotation={[0, -0.1, -.02]} />
+          <MySvg filename="/web/url.svg" color="#ffffff" scale={0.0008} position={[-0.9, 1.0, .8]} rotation={[0, 0, 0]} />
 
 
           <Ground mirror={1.0} blur={[1000, 100]} mixBlur={12} mixStrength={1.5} rotation={[-Math.PI / 2, 0, Math.PI / 2]} position-y={-0.8} />
