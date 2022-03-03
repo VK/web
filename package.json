@@ -1,12 +1,12 @@
 {
-  "name": "reflectorplanes-and-bloom",
+  "name": "krueckl.de",
   "version": "1.0.0",
-  "description": "Playing with reflections, bloom and camera-shake.",
+  "description": "krueckl.de",
   "keywords": [
-    "camera-shake",
-    "reflection",
-    "bloom"
+    "VK",
+    "krueckl.de"
   ],
+  "homepage": "https://vk.github.io/web",
   "main": "src/index.js",
   "dependencies": {
     "@react-three/drei": "^7.25.5",
