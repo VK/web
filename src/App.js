@@ -88,7 +88,7 @@ function Ground(props) {
 
 export default function App() {
   return (
-    <Canvas dpr={[1, 1.5]} camera={{ position: [0, 0, 15] }}>
+    <Canvas dpr={[1, 1.5]} camera={{fov: 110, position: [0, 0, 15] }}>
       <color attach="background" args={['black']} />
       <ambientLight />
       <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
