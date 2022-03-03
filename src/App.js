@@ -24,7 +24,7 @@ function MyFrame({ color, ...props }) {
   const ref = useRef()
   const [r] = useState(() => Math.random() * 10000)
   useFrame((_) => (ref.current.position.y = -1.75 + Math.sin(_.clock.elapsedTime + r) / 25))
-  const { paths: [path] } = useLoader(SVGLoader, '/frame.svg') // prettier-ignore
+  const { paths: [path] } = useLoader(SVGLoader, '/web/frame.svg') // prettier-ignore
   const geom = useMemo(() => SVGLoader.pointsToStroke(path.subPaths[0].getPoints(), path.userData.style), [])
   return (
     <group ref={ref}>
@@ -96,9 +96,9 @@ export default function App() {
         <Rig>
           <MyFrame color="#00c2ba" scale={0.008} position={[-1.75, 1.3, -.1]} rotation={[0, 0, 0]} />
 
-          <MySvg filename="./V.svg" color="#ff26ba" scale={0.0060} position={[-2.2, 1.49, -.12]} rotation={[0, 0.05, -0.01]} />
-          <MySvg filename="./K.svg" color="#ff26ba" scale={0.0060} position={[-0.4, 1.4, -0.2]} rotation={[0, -0.1, -.02]} />
-          <MySvg filename="./url.svg" color="#ffffff" scale={0.0008} position={[-0.9, 1.0, .8]} rotation={[0, 0, 0]} />
+          <MySvg filename="./web/V.svg" color="#ff26ba" scale={0.0060} position={[-2.2, 1.49, -.12]} rotation={[0, 0.05, -0.01]} />
+          <MySvg filename="./web/K.svg" color="#ff26ba" scale={0.0060} position={[-0.4, 1.4, -0.2]} rotation={[0, -0.1, -.02]} />
+          <MySvg filename="./web/url.svg" color="#ffffff" scale={0.0008} position={[-0.9, 1.0, .8]} rotation={[0, 0, 0]} />
 
 
           <Ground mirror={1.0} blur={[1000, 100]} mixBlur={12} mixStrength={1.5} rotation={[-Math.PI / 2, 0, Math.PI / 2]} position-y={-0.8} />
