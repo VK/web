@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="317"
+   height="274"
+   viewBox="0 0 317 274"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="V.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2068"
+     inkscape:window-height="1044"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="0.7988959"
+     inkscape:cx="455.45484"
+     inkscape:cy="123.08451"
+     inkscape:window-x="362"
+     inkscape:window-y="123"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <g
+     aria-label="V"
+     id="text837"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:415.748px;line-height:1.25;font-family:Marlett;-inkscape-font-specification:'Marlett Bold';fill:#ff0000"
+     transform="matrix(1,0,0,-1,0,273.99998)">
+    <path
+       d="M 284.39796,13.344279 194.20984,260.6557 H 122.79016 L 32.602043,13.344279 H 99.537236 L 159.33046,187.07682 219.12369,13.344279 Z"
+       style="font-size:340.157px;fill:#ff0000"
+       id="path839" />
+  </g>
+</svg>
