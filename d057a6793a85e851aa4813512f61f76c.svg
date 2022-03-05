@@ -1,0 +1,28 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="317"
+      height="274"
+      fill="none"
+      version="1.1"
+      viewBox="0 0 317 274"
+    >
+      <g
+        ariaLabel="K"
+        fill="#1900ff"
+        fillOpacity="1"
+        fontFamily="Marlett"
+        fontSize="415.748"
+        fontStretch="normal"
+        fontStyle="normal"
+        fontVariant="normal"
+        fontWeight="bold"
+        transform="matrix(1 0 0 -1 0 274)"
+      >
+        <path
+          fill="#1900ff"
+          fillOpacity="1"
+          d="M273.934 260.656h-78.23l-73.91-98.991-14.949 18.104v80.887h-63.78V13.344h63.78V125.29l88.361-111.946h73.911l-96.665 114.438z"
+          fontSize="340.157"
+        ></path>
+      </g>
+    </svg>

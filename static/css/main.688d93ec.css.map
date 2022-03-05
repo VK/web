@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.688d93ec.css","mappings":"AAAA,EACE,qBACF,CAEA,qBAIE,WAAY,CACZ,QAAS,CACT,SAAU,CAHV,UAIF","sources":["styles.css"],"sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nhtml,\nbody,\n#animation {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n  padding: 0;\n}\n"],"names":[],"sourceRoot":""}
