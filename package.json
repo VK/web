@@ -2,6 +2,7 @@
   "name": "krueckl.de",
   "version": "1.0.0",
   "description": "krueckl.de",
+  "private": false,
   "keywords": [
     "VK",
     "krueckl.de"
@@ -20,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -29,5 +30,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-svg-loader": "^3.0.3"
+  }
 }

@@ -1,0 +1,26 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="317"
+      height="274"
+      fill="none"
+      version="1.1"
+      viewBox="0 0 317 274"
+    >
+      <g
+        ariaLabel="V"
+        fill="red"
+        fontFamily="Marlett"
+        fontSize="415.748"
+        fontStretch="normal"
+        fontStyle="normal"
+        fontVariant="normal"
+        fontWeight="bold"
+        transform="matrix(1 0 0 -1 0 274)"
+      >
+        <path
+          fill="red"
+          d="M284.398 13.344L194.21 260.656h-71.42L32.602 13.344h66.935l59.793 173.733 59.794-173.733z"
+          fontSize="340.157"
+        ></path>
+      </g>
+    </svg>

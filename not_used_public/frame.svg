@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,9 +48,10 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
   <path
-     d="M -81.092134,249.6351 -13.216371,10.901697 469.92075,-12.025462 375.11527,124.95535 463.41973,255.76274 Z"
+     d="M -81.092134,249.6351 -3.216371,2.901697 461.92075,-10.025462 365.11527,124.95535 463.41973,249.76274 Z"
      stroke="white"
      stroke-width="15"
      id="path2"
